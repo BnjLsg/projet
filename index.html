@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+
+<body>
+    <!------------------------Menu----------------------------------->
+    <div class="main">
+
+
+        <nav>
+            <h2>MY PET</h2>
+
+            <img src="img/cat.png" alt="photochat">
+
+            <p>Vous souhaitez:</p>
+
+
+
+
+            <ul>
+                <li> <a href="#">Changer la photo de Profil</a></li>
+                <li> <a href="#">Modifier sa date d'expedition</a></li>
+                <li> <a href="#">Modifier son menu</a></li>
+                <li> <a href="#">Modifier son profil</a></li>
+                <li> <a href="#">Suspendre les livraisons</a></li>
+                <li> <a href="#">Contacter le service client</a></li>
+
+            </ul>
+
+
+        </nav>
+        <!----------------------------------------------------------------->
+
+        <div class="blocs">
+
+            <h2>Prochaine expédition</h2>
+
+
+            <section class="expedition">
+
+
+                <div class="box">
+                    <img src="img/box.png">
+                </div>
+
+                <div class="texte">
+
+                    <h3>2 mois d'alimentation pour {FNAME}</h3>
+                    <p>- 7.2kg de croquettes saines et naturelles
+                        <br> - 40 pochons d'éffilochés
+                    </p>
+
+
+                    <h3>Prix total pour 2 mois : 82,40€ (1,37:jour)</h3>
+                    <p>Date de facturation et préparation: 15/11/2021
+                        <br> Livraison estimée 16/11/2021 ++199/11/2021
+                    </p>
+
+                    <a href="Modif_date_expediton">Modifier sa date d'expédition</a>
+
+                </div>
+
+            </section>
+
+
+            <h2>Le menu de {FNAME}</h2>
+
+            <section class="FNAME">
+
+
+
+                <div class="food">
+                    <img src="img/food.png">
+                </div>
+
+
+                <div class="texte">
+
+                    <p>Croquettes(poulets et petit légumes)...
+                        <strong>35g/jour</strong>
+                        <br> Effilochés (plusieurs saveurs)...
+                        <strong>1 pochon/jour</strong>
+                        <br> Prix total par jour
+                        <strong>1,37/jour</strong>
+
+                    </p>
+
+                    <h3>Fréquence de livraison tous les 2 mois</h3>
+
+                    <a href="Modif_menu">Modifier le menu</a>
+
+                </div>
+
+            </section>
+
+
+
+            <!-------------- liste ---------------------------->
+
+
+            <h2>Le profil {FNAME}</h2>
+
+            <section class="profil">
+
+
+
+
+
+
+                <form action="profil.php" method="post">
+
+                    <div class="colone1">
+
+                        <div>
+                            <label for="Nom">Nom :</label>
+                            <input type="name" value="">
+                        </div>
+
+                        <div>
+                            <label for="">Sexe :</label>
+                            <input type="" value="">
+                        </div>
+
+                        <div>
+                            <label for="">Strérilisation :</label>
+                            <input type="" value="">
+                        </div>
+
+                        <div>
+                            <label for="">Activité :</label>
+                            <input type="" value="">
+                        </div>
+
+                        <div>
+                            <label for="">Allergies :</label>
+                            <input type="" value="">
+                        </div>
+
+                        <div>
+                            <label for="">Santé :</label>
+                            <input type="" value="">
+                        </div>
+
+                    </div>
+
+
+                    <div class="colone2">
+
+                        <div>
+                            <label for="">Date de naissance :</label>
+                            <input type="date" value="">
+                        </div>
+
+                        <div>
+                            <label for="">Race</label>
+                            <input type="" value="">
+                        </div>
+
+                        <div>
+                            <label for="">Poids</label>
+                            <input type="" value="">
+                        </div>
+
+                        <div>
+                            <label for="">Préférence alimentaire :</label>
+                            <input type="" value="">
+                        </div>
+
+                    </div>
+
+                    <a href="Modif_profil">Modifier son profil</a>
+
+                </form>
+
+            </section>
+            <!------------------------------------------------->
+
+
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+</body>
+
+
+
+</html>
